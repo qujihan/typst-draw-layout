@@ -1,8 +1,8 @@
-# DrawFormat (WIP).
+# Draw Layout (WIP)
 
-*Draw Format Pic for Every Programmer!*
+*Draw Layout Pic for Every Programmer!*
 
-This project aims to provide a tool for generating formatted pictures that can be used by programmers in their documentation or presentations.
+This project aims to provide a tool for generating layout pictures that can be used in their documentation or presentations.
 
 ## Usage
 
@@ -10,8 +10,8 @@ This project aims to provide a tool for generating formatted pictures that can b
 // emm...
 // just wait a moment !
 // i will make it more easily use...
-#import demo.typ
+#import "lib.typ"
 ```
 
-# inspiration
+# Inspiration
 - [bytefield](https://github.com/jomaway/typst-bytefield)

@@ -39,7 +39,11 @@
 }
 
 #let faker-note-and-header(config: (:), header-info: ()) = grid(
-  columns: ((1fr) * (config.left-width), (1fr) * (config.width), (1fr) * (config.right-width)),
+  columns: (
+    (1fr) * (config.left-note-precent),
+    (1fr) * (config.main-body-precent),
+    (1fr) * (config.right-note-precent),
+  ),
   grid.cell()[#sym.space],
   grid.cell()[#contern-header-grid(config: config, header-info: header-info)],
   grid.cell()[#sym.space]

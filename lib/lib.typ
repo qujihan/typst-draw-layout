@@ -3,8 +3,9 @@
 
 #let draw-layout(
   width: 32,
-  left-width: 1,
-  right-width: 1,
+  main-body-precent: 50,
+  left-note-precent: 25,
+  right-note-precent: 25,
   table-stroke: 1pt,
   table-inset: 1em,
   table-fill: none,
@@ -25,10 +26,11 @@
   return gen-draw-layout(
     config: draw-format-config(
       width,
-      left-width: left-width,
-      right-width: right-width,
       row-size-basic: row-size-basic,
       rows-size: rows-size,
+      main-body-precent: main-body-precent,
+      left-note-precent: left-note-precent,
+      right-note-precent: right-note-precent,
       table-stroke: table-stroke,
       table-inset: table-inset,
       table-fill: table-fill,

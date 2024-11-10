@@ -70,7 +70,11 @@
   )
 
   let unit-and-note = grid(
-    columns: ((1fr) * (config.left-width), (1fr) * (config.width), (1fr) * (config.right-width)),
+    columns: (
+      (1fr) * (config.left-note-precent),
+      (1fr) * (config.main-body-precent),
+      (1fr) * (config.right-note-precent),
+    ),
     if (not left-note-grid == none) {
       grid.cell()[#left-note-grid]
     },

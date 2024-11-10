@@ -2,8 +2,9 @@
 
 #let draw-format-config(
   width,
-  left-width: 1,
-  right-width: 1,
+  main-body-precent: none,
+  left-note-precent: none,
+  right-note-precent: none,
   table-stroke: none,
   table-inset: auto,
   table-fill: auto,
@@ -97,8 +98,9 @@
 
   return (
     width: width,
-    left-width: left-width,
-    right-width: right-width,
+    main-body-precent: main-body-precent,
+    left-note-precent: left-note-precent,
+    right-note-precent: right-note-precent,
     table-stroke: table-stroke,
     table-inset: table-inset,
     table-fill: table-fill,
